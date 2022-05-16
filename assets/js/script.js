@@ -1,18 +1,18 @@
 const lists = [
     {
-        heading: 'dev',
+        heading: 'arch',
         links: [
             {
-                title: 'github',
-                url: 'https://www.github.com/',
+                title: 'home',
+                url: 'https://archlinux.org/',
             },
             {
-                title: 'codewars',
-                url: 'https://www.codewars.com/',
+                title: 'wiki',
+                url: 'https://wiki.archlinux.org/',
             },
             {
-                title: 'leetcode',
-                url: 'https://www.leetcode.com/',
+                title: 'aur',
+                url: 'https://aur.archlinux.org/',
             },
         ],
     },
@@ -24,67 +24,52 @@ const lists = [
                 url: 'https://www.gmail.com/',
             },
             {
-                title: 'linkedin',
-                url: 'https://www.linkedin.com/',
+                title: 'github',
+                url: 'https://www.github.com/',
             },
         ],
     },
-    {
-        heading: 'news',
-        links: [
-            {
-                title: 'habr',
-                url: 'https://habr.com/ru/all/',
-            },
-            {
-                title: 'kod.ru',
-                url: 'https://kod.ru/',
-            },
-            {
-                title: 'tproger',
-                url: 'https://tproger.ru/',
-            },
-            {
-                title: 'proglib',
-                url: 'https://proglib.io/',
-            },
-        ],
-    },
+   
     {
         heading: 'media',
         links: [
             {
-                title: 'anime',
-                url: 'https://animego.org/',
-            },
-            {
-                title: 'manga',
-                url: 'https://mangalib.me/',
-            },
-            {
                 title: 'youtube',
                 url: 'https://www.youtube.com/',
             },
+            {
+                title: 'hulu',
+                url: 'https://hulu.com',
+            },
+            {
+                title: 'netflix',
+                url: 'https://netflix.com/',
+            },
+            {
+                title: 'hbo',
+                url: 'https://play.hbomax.com/',
+            },
+
         ],
     },
     {
-        heading: 'reddit',
+        heading: 'social',
         links: [
             {
-                title: 'r/afkarena',
-                url: 'https://www.reddit.com/r/afkarena/',
+                title: 'reddit',
+                url: 'https://www.reddit.com/',
             },
             {
-                title: 'r/unixporn',
-                url: 'https://www.reddit.com/r/unixporn/',
+                title: 'twitter',
+                url: 'https://twitter.com/home',
             },
             {
-                title: 'r/startpages',
-                url: 'https://www.reddit.com/r/startpages/',
+                title: '/g/',
+                url: 'https://boards.4chan.org/g/',
             },
             {
-                title: 'r/linuxmemes',
-                url: 'https://www.reddit.com/r/linuxmemes/',
+                title: '/wg/',
+                url: 'https://boards.4chan.org/wg/',
             },
         ],
     },
